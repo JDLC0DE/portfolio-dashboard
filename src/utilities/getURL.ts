@@ -11,6 +11,8 @@ export const getServerSideURL = () => {
     url = 'http://localhost:3000'
   }
 
+  console.log('url', url)
+
   return url
 }
 
